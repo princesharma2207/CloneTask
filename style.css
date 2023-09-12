@@ -1,0 +1,1034 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mukta:wght@200&family=Overpass:wght@100&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Mukta', sans-serif;
+    /* font-family: 'Overpass', sans-serif; */
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    
+
+    
+}
+
+
+#nav{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    
+    /* background-color: red; */
+}
+#nav i{
+    position: relative;
+    left: 10%;
+    top: 40%;
+    font-size: 250%;
+}
+#nav h1{
+    position: relative;
+    color: #2E3192;
+    margin-left: 15%;
+    margin-top: -2%;
+    font-size: 47px;
+    font-weight: lighter;
+}
+/* .box{
+    position: relative;
+    width: 10%;
+    height: 40%;
+    background-color: red;
+    display: inline-block;
+    flex-direction: column;
+    border-right: 1px solid #333333;
+    /* margin-top: -4%; */
+    /* float: left;
+    left: 50%;
+    
+} */ 
+#box1{
+    position: relative;
+    width: 12%;
+    height: 40%;
+    /* background-color: red; */
+    border-right: 1px solid #333333;
+    left: 55%;
+    margin-top: -4%;
+
+}
+#box1 h4{
+    
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+#box1 img{
+    position: relative;
+    left: 88%;
+    top: -70%;
+}
+#box2{
+    position: relative;
+    width: 10%;
+    height: 40%;
+    /* background-color: red; */
+    border-right: 1px solid #333333;
+    left: 67.5%;
+    margin-top: -2.8%;
+
+}
+#box2 a{
+    position: relative;
+    left: 10%;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    gap: 10px;
+    text-decoration: none;
+}
+#box3{
+    position: relative;
+    width: 8%;
+    height: 40%;
+    /* background-color: red; */
+    border-right: 1px solid #333333;
+    left: 77%;
+    margin-top: -2.8%;
+
+}
+#box3 h4{
+    font-size: 20px;
+    text-align: center;
+}
+#box3 img{
+    position: relative;
+    left: 77%;
+    top: -64%;
+    
+}
+#box4{
+    position: relative;
+    width: 8%;
+    height: 40%;
+    /* background-color: red; */
+        
+    left: 84%;
+    margin-top: -2.8%;
+
+}
+#box4 h4{
+    text-align: center;
+    font-size: 20px;
+}
+#box4 img{
+    position: absolute;
+    left: 90%;
+    margin-top: -26%;
+}
+#line{
+    position: relative;
+    width: 82%;
+    height: 2px;
+    background-color: #2EBBD1;
+    margin-top: 0.5%;
+    left: 10%;
+}
+#main{
+    position: relative;
+    
+}
+#page1{
+    width: 80%;
+    height: 500px;
+    background-color: red;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px grey;
+    overflow: hidden;
+    background-image: url(https://cdn.narendramodi.in/cmsuploads/0.73113200_1693118006_1155-548.png);
+    animation: sliderrr 40s infinite linear;
+}
+@keyframes sliderrr{
+    0%{
+        background-image: url('https://cdn.narendramodi.in/cmsuploads/0.73113200_1693118006_1155-548.png');
+    }
+    10%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.71631500_1685425883_banner.jpg');}
+    20%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.86887400_1678230382_maa-banner.jpg');}
+    30%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.21090000_1677473996_1-crore-home-page-banner.jpg');}
+    40%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.96380100_1674027568_1155x548.jpg');}
+    50%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.17067300_1672840350_1155x548.jpeg');}
+    60%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.56483900_1622912686_merchandise.jpeg');}
+    70%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.14908900_1678776955_farmer-banner.jpg');}
+    80%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.43082300_1474049286_biography.jpg');}
+    90%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.99481600_1455718938_pm-modis-journey-captured-in-timeline.jpg');}
+}
+#social{
+    width: 14%;
+    height: 10%;
+    background-color: #474B99;
+    margin-left: 88%;
+    opacity: 0.8;
+}
+#social i{
+    position: relative;
+    color: white;
+    font-size: 45px;
+    margin: 11px;
+    
+    
+}
+#quote{
+    position: relative;
+    width: 50%;
+    height: 20%;
+    background-color: #474B99;
+    opacity: 0.8;
+    margin-top: 31%;
+    margin-left: 25%;
+}
+#quote h3{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+}
+#news{
+    position: relative;
+    width: 80%;
+    height: 9%;
+    /* background-color: #474B99; */
+    border-bottom: 2px solid #1FB6CD;
+    margin-left: 10%;
+}
+#news h2{
+    
+    margin-left: 5%;
+}
+#green{
+    position: relative;
+    width: 3.5%;
+    height: 50%;
+    top: 50%;
+    background-color:#1FB6CD ;
+}
+#green img{
+    position: relative;
+    left: 25%;
+    margin-top: 13%;
+}
+#npci{
+    position: relative;
+    width: 40%;
+    height: 60%;
+    left: 10%;
+    top: 20px;
+    background-color: #34B6E8;
+}
+#npci img{
+    width: 100%;
+    height: 100%;
+}
+#head{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: #435BAA;
+    opacity: 0.8;
+    margin-top: -12%;
+}
+#head h3{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+#summit{
+    position: relative;
+    width: 38%;
+    height: 30%;
+    background-color: red;
+    margin-left: 52%;
+    margin-top: -31.2%;
+
+}
+#summit img{
+    width: 100%;
+    height: 100%;
+}
+#b20{
+    width: 100%;
+    height: 20%;
+    background-color: #435BAA;
+    position: absolute;
+    margin-top: -10%;
+    opacity: 0.8;
+}
+#b20{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+}
+#distri{
+    position: relative;
+    width: 20%;
+    height: 29%;
+    background-color: red;
+    margin-top: 0.5%;
+    margin-left: 52%;
+}
+#distri img{
+    width: 100%;
+    height: 100%;
+}
+#appoint{
+    position: relative;
+    width: 100%;
+    height: 25%;
+    background-color: #435BAA;
+    opacity: 0.8;
+    margin-top: -23%;
+}
+#appoint h3{
+    
+    color: white;
+    font-size: 18px;
+
+}
+#media{
+    position: relative;
+    width: 17%;
+    height: 29%;
+    background-color: red;
+    margin-top: -16.4%;
+    margin-left: 73%;
+    
+}
+#media img{
+    width: 100%;
+    height: 100%;
+}
+#corner{
+    position: relative;
+    width: 100%;
+    height: 25%;
+    background-color: #435BAA;
+    opacity: 0.8;
+    margin-top: -27%;
+}
+#corner h3{
+    color: white;
+}
+#page3{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    margin-top: -15%;
+}
+#med{
+    position: relative;
+    width: 40%;
+    height: 5%;
+    left: 10%;
+    top: 20px;
+    /* background-color: #34B6E8; */
+    border-bottom: 2px solid #34B6E8 ;
+}
+#med h2{
+    position: relative;
+    left: 10%;
+    top: -100%;
+
+}
+#icon{
+    position: relative;
+    width: 8%;
+    height: 100%;
+    background-color: #34B6E8;
+    top: -11%;
+}
+#tune{
+    position: relative;
+    width: 38%;
+    height: 5%;
+    left: 52%;
+    top: -2.5%;
+    /* background-color: #34B6E8; */
+    border-bottom: 2px solid #34B6E8 ;
+}
+#tune h2{
+    position: relative;
+    left: 10%;
+    
+    margin-top: -7%;
+}
+#icon2{
+    position: relative;
+    width: 8%;
+    height: 100%;
+    background-color: #34B6E8;
+    
+}
+#icon2 img {
+    position: relative;
+    left: 20%;
+    top: 15%;
+}
+#gst{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    left: 10%;
+    top: -10px;
+    background-color: red;
+    background-image: url(https://cdn.narendramodi.in/cmsuploads/0.72779000_1693634106_gst.jpg);
+    animation: slide 10s infinite linear;
+}
+@keyframes slide {
+    0%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.72779000_1693634106_gst.jpg');}
+    20%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.88766800_1693631475_manufacturing.jpg');}
+    40%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.08782200_1693629361_retail.jpg');}
+    60%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.57899600_1693629850_emopower.jpg');}
+    80%{background-image: url('https://cdn.narendramodi.in/cmsuploads/0.37097000_1693629453_msme.jpg');}
+    
+}
+#collect{
+    position: relative;
+    width: 100%;
+    height: 25%;
+    background-color: #1FB6CD;
+    top: 75%;
+}
+#collect h2{
+    color: #2E3192;
+    font-size: 22px;
+}
+#watch{
+    position: relative;
+    width: 38%;
+    height: 5%;
+    left: 52%;
+    top: -41%;
+    background-color: #1FB6CD;
+    border-left: 5px solid #2873AD;
+
+}
+#watch h2{
+    position: relative;
+    color: white;
+    left: 18%;
+
+}
+#mann{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #7E7E7E;
+    left: 50%;
+    top: -98%;
+
+}
+#mann h2{
+    color: white;
+    
+}
+#stay{
+    position: relative;
+    width: 38%;
+    height: 34%;
+    left: 52%;
+    top: -40%;
+    background-color: red;
+}
+#stay img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#live{
+    position: relative;
+    width: 100%;
+    height: 25%;
+    background-color: #1FB6CD;
+    margin-top: -16%;
+}
+#live h2{
+    position: relative;
+    color: #2E3192;
+    left: 10%;
+    top: 10%;
+    font-size: 27px;
+}
+#view{
+    position: relative;
+    width: 25%;
+    height: 40%;
+    left: 60%;
+    top: -30%;
+    background-color: #2E3192;
+    border-left: 5px solid #2873AD;
+}
+#view h4{
+    position: relative;
+    color: white;
+    left: 10%;
+    
+}
+#cards{
+    position: relative;
+    /* background-color: red; */
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    top: -38%;
+}
+.row{
+    position: relative;
+    top: -20%;
+    left: 10%;
+    
+    height: 40%;
+    width: 25%;
+    /* background-color: #2E3192; */
+    display: flex;
+    transition: all ease 0.6s;
+    background-size: cover;
+    background-position: center;
+}
+.row a{
+    position: relative;
+    text-decoration: none;
+    font-size: 26px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+
+}
+#card1{
+    background-image: url(icon1.png);
+    border-right:  1px solid black ;
+}
+#card2{
+    background-image: url(icon2.png);
+    border-right:  1px solid black ;
+
+}
+#card3{
+    background-image: url(icon3.png);
+    border-right:  1px solid black ;
+    
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0;
+    transition: all ease 0.6s;
+}
+.overlay h4{
+    color: #2E3192;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.overlay p{
+    text-align: center;
+    font-size: 15px;
+}
+.row:hover .overlay{
+    opacity: 1;
+}
+#second{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    /* background-color: #2E3192; */
+    top: -65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.colum{
+    position: relative;
+    width: 25%;
+    height: 80%;
+    background-color: aliceblue;
+    top: -5%;
+    left: 10%;
+    background-size: 400px;
+    background-position: center;
+    text-align: center;
+}
+.colum a{
+    position: relative;
+    text-align: center;
+    
+    
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    
+
+}
+#card4{
+    background-image: url(icon4.png);
+    border-right:  1px solid black ;
+
+}
+
+#card5{
+    background-image: url(icon5.png);
+    border-right:  1px solid black ;
+}
+#card6{
+    background-image: url(icon6.png);
+    border-right:  1px solid black ;
+}
+.overlay1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0;
+    transition: all ease 0.6s;
+}
+.overlay1 h4{
+    color: #2E3192;
+    text-align: center;
+    font-size: 25px;
+}
+.overlay1 p{
+    text-align: center;
+    font-size: 15px;
+}
+.colum:hover .overlay1{
+    opacity: 1;
+}
+#line1{
+    position: absolute;
+    width: 80%;
+    height: 0.2%;
+    background-color: black;
+    margin-left: 10%;
+    top: 5%;
+    
+}
+#line2{
+    position: absolute;
+    width: 80%;
+    height: 0.2%;
+    background-color: black;
+    margin-left: 10%;
+    top: 55%;
+
+}
+#line3{
+    position: absolute;
+    width: 80%;
+    height: 0.2%;
+    background-color: black;
+    margin-left: 10%;
+    top: 115%;
+
+}
+#page4{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 95%;
+    /* background-color: red; */
+}
+#gov{
+    
+    width: 80%;
+    height: 8%;
+    border-bottom: 2px solid #1FB6CD ;
+    margin-left: 10%;
+}
+#gov #icon{
+    position: relative;
+    top: 40%;
+    
+    width: 3.5%;
+    height: 60%;
+    background-color: #1FB6CD;
+}
+#gov h2{
+    position: relative;
+    left: 5%;
+    margin-top: -1%;
+}
+#meet{
+    position: relative;
+    width: 55%;
+    height: 40%;
+    top: 2%;
+    margin-left: 10%;
+    background-image: url(https://cdn.narendramodi.in/cmsuploads/0.50361900_1678777045_nga.jpg);
+    animation: slider 10s infinite linear;
+}
+@keyframes slider {
+    0%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.50361900_1678777045_nga.jpg);}
+    20%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.43304100-1570795960-0-45329100-1570795945-pm-2520meets-2520nagaland-2520gb-2520federation-2520-252819-2529.JPG);}
+    40%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.22139900_1678781260_kempegowda.jpg);}
+    60%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.76712800_1678781601_new-sec-paradigm.jpg);}
+    80%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.50845300_1570800974_new-pm-narendra-modi-working-for-a-surakshit-bharat-for-women.jpg);}
+    
+}
+#adorn{
+    position: relative;
+    top: -38.1%;
+    left: 65%;
+    width: 25%;
+    height: 40% ;
+    background-color: #282B81;
+}
+#adorn h4{
+    color: white;
+    font-size: 41px;
+    font-weight: lighter;
+    text-align: center;
+}
+#adorn p{
+    text-align: center;
+    color: white;
+}
+.fac{
+    position: relative;
+    width: 12%;
+    height: 13%;
+    /* background-color: #2EBBD1; */
+    display: flex;
+    float: left;
+    left: 60%;
+    top: 5%;
+    border-radius: 50%;
+    border: 2.5px solid white;
+    
+    
+    margin: 1%;
+}
+.fac i{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    
+    left: 10%;
+    top: 10%;
+}
+.global{
+    position: relative;
+    width: 40%;
+    height: 5%;
+    /* background-color: #474B99; */
+    float: left;
+    top: -35%;
+    margin: 0.3%;
+    left: 9.5%;
+    border-bottom: 3px solid #1FB6CD;
+
+}
+.global .icons{
+    position: relative;
+    top: -110%;
+    width: 7%;
+    height: 100%;
+    background-color: #1FB6CD;
+}
+.icons img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.global h1{
+    
+    position: relative;
+    font-size: 25px;
+    left: 10%;
+}
+.coop{
+    position: relative;
+    width: 40%;
+    height: 39%;
+    background-color: red;
+    display: flex;
+    float: left;
+    margin: 0.3%;
+    left: 9.5%;
+    top: -35%;
+}   
+#coop1{
+    background-image: url(https://cdn.narendramodi.in/cmsuploads/0.58587200-1499678277-0-83517900-1499678254-pm-2520at-2520launch-2520of-2520south-2520asian-2520satellite-2520-25285-2529.JPG);
+    background-position: center;
+    background-size: cover;
+    animation: sli 15s linear infinite;
+}
+@keyframes sli {
+    0%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.58587200-1499678277-0-83517900-1499678254-pm-2520at-2520launch-2520of-2520south-2520asian-2520satellite-2520-25285-2529.JPG);}
+    20%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.29257000_1482760911_leading-agencies-give-thumps-up.jpg);}
+    40%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.33468100_1482760257_in-humanity-we-trust.jpg);}
+    60%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.72540800_1482760634_engaging-with-neighbours.jpg);}
+    80%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.85454000_1482760457_connecting-with-indian-diaspora.jpg);}   
+}
+#coop2{
+    background-image: url(https://cdn.narendramodi.in/cmsuploads/0.87343100_1692961865_1.jpg);
+    background-position: center;
+    background-size: cover;
+    animation: slid 15s linear infinite;
+}
+@keyframes slid {
+    0%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.87343100_1692961865_1.jpg);}
+    20%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.59849400_1692789564_family-photo.jpg);}
+    40%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.84226500_1566638296_background-image.jpg);}
+    60%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.02633500_1689315481_3-prime-minister-conferred-with-the-grand-cross-of-the-legion-of-honour.jpg);}
+    80%{background-image: url(https://cdn.narendramodi.in/cmsuploads/0.13431800_1687755965_microsite.jpg);}
+
+}
+#tak{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: #2EBBD1;
+    top: 80%;
+}
+#tak h2{
+    color: #282B81;
+    text-align: center;
+}
+#gree{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: #2EBBD1;
+    top: 80%;
+
+}
+#gree h2{
+    color: #282B81;
+    text-align: center;
+}
+#footer{
+    position: relative;
+    top: 60%;
+    width: 100%;
+    height: 40vh ;
+    background-color: #E3E3E3;
+    display: flex;
+    float: left;
+    
+}
+.home{
+    position: relative;
+    
+    width: 16%;
+    
+    
+    left: 10%;
+    top: 10%;
+    border-right: 1px solid black;
+    
+    height: 60%;
+    margin: 0.5px;
+    /* background-color: #282B81; */
+    
+    
+}
+.home h2{
+    color: #282B81;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.home h4{
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    animation-duration: 1s;
+    animation-name: upp;
+}
+@keyframes upp {
+    from{
+        margin-top: 100%;
+    }
+    to{
+        margin-top: 0%;
+    }
+    
+}
+#down{
+    
+    
+    position: fixed;
+    margin-top: 40%;
+    width: 6%;
+    height: 10%;
+    /* background-color: red; */
+    z-index: 9;
+}
+#down img{
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
+}
+#dow{
+    position: relative;
+    top: -7%;
+    left: -1%;
+    font-size: 11px;
+    color: black;
+    text-decoration: none;
+
+}
+#cross{
+    position: relative;
+    left: 80%;
+    top: 30%;
+}
+#circle{
+    position: fixed;
+    left: 94%;
+    top: 75%;
+    width: 4%;
+    height: 7%;
+    border-radius: 50%;
+    /* background-color: white; */
+    z-index: 9;
+    border: 5px solid #1FB6CD;
+    text-decoration: none;
+}
+#circle #toup{
+    position: relative;
+    top: -15%;
+    right: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 60px;
+}
+#circle i{
+    position: relative;
+    text-decoration: none;
+    
+    left: 22%;
+    top: 23%;
+    width: 60%;
+    height: 50%;
+    object-fit: cover;
+    
+}
+#with{
+    position: relative;
+    width: 40%;
+    height: 12%;
+    /* background-color: red; */
+    right: 56%;
+    top: 86%;
+}
+#with h2{
+    position: relative;
+    left: -20%;
+    color: #282B81;
+    font-weight: 1000;
+    font-size: 22px;
+}
+.media{
+    position: relative;
+    left: 45%;
+    top: -110%;
+    width: 13%;
+    height: 100%;
+    /* background-color: #E3E3E3; */
+    float: left;
+    margin: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    
+}
+.media i{
+    position: relative;
+    left: 20%;
+    top: 16%;
+    color: black;
+    
+    
+    font-size: 25px;
+    transition: .5s;
+    z-index: 3;
+    
+}
+.media a{
+    text-decoration: none;
+}
+#media1:hover{
+    background-color: #1877F2;
+    transform: rotateY(360deg);
+}
+.media i:hover{
+    color: white;
+}
+#media2:hover{
+    background-color: #1DA1F2;
+}
+#media3:hover{
+    background-color: #0A66C2;
+}
+#media4:hover{
+    background-color: #E4405F;
+}
+#media5:hover{
+    background-color: #00C300;
+}
+#gov1{
+    
+    margin-left: 2%;
+    
+}
+#par1{
+    width: 18%;
+    margin-left: 1%;
+}
+#gov1 h2{
+    position: relative;
+    left: -10%;
+}
+#gov1 h4{
+    position: relative;
+    left: -10%;
+}
+#nm{
+    width: 22%;
+}
+#poet{
+    width: 20%;
+}
+@media screen and (max-width:600px)
+{
+    #nav h1{
+        position: relative;
+        font-size: 40px;
+        left: 10%;
+        top: -14%;
+    }
+
+}
